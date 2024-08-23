@@ -4,18 +4,18 @@
 
 @font-face {
   font-family: "newpacifico";
-  src: url("..\fonts\Pacifico-Regular.ttf");
+  src: url("/fonts/Pacifico-Regular.ttf");
 }
 
 @font-face {
   font-family: "comfortaa";
-  src: url("..\fonts\Comfortaa\Comfortaa-VariableFont_wght.ttf");
+  src: url("/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: "comfortaa";
-  src: url("..\fonts\Comfortaa\static\Comfortaa-Bold.ttf");
-  font-size: bold;
+  src: url("/fonts/Comfortaa/static/Comfortaa-Bold.ttf");
+  font-weight: bold;
 }
 /*
 @font-face {
