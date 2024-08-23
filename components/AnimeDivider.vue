@@ -4,15 +4,17 @@
       <div class="hero-content text-center">
         <div class="">
           <h1
-            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black"
+            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black font-newpacifico"
           >
             Animações
           </h1>
-          <p class="text-white text-md lg:text-lg font-bold">
+          <p
+            class="text-white text-md lg:text-2xl font-bold font-comfortaa mt-10"
+          >
             Logo que foi Vectorizado para SVG, automaticamente e manualmente, de
             seguida importado para RIVE. Em Rive foi melhorado, e animado a
             partir das seus elementos vectorizados. Aqui demostradas em GIF, mas
-            serão usadas numa Mobile App.
+            serão usadas numa Mobile App (2024).
           </p>
         </div>
       </div>

@@ -4,6 +4,7 @@ export type imageGalleryType = {
   alt: string;
   name: string;
   description: string;
+  year?: string;
 };
 
 export const initialImage: imageGalleryType = {
@@ -19,7 +20,7 @@ export const galleryImages: imageGalleryType[] = [
     id: 0,
     src: "/images/bg_jarbas.png",
     alt: "bg_jarbas",
-    name: "background de logo",
+    name: "Background de Logo",
     description:
       "Este background foi cuidadosamente desenvolvido por mim, utilizando como base uma logo já idealizada, embora não criada por mim. A composição foi realizada no Photoshop, explorando padrões e a ferramenta de repetição para criar uma textura visual harmoniosa e impactante, que complementa a identidade da marca de forma única e expressiva.",
   },
@@ -27,7 +28,7 @@ export const galleryImages: imageGalleryType[] = [
     id: 1,
     src: "/images/depoimentos_de_clientes.png",
     alt: "depoimentos_de_clientes.png",
-    name: "depoimentos de clientes",
+    name: "Depoimentos de Clientes",
     description:
       "Este post foi elaborado no Adobe Express, utilizando o background desenvolvido em um projeto anterior. O texto foi gerado com o auxílio de uma inteligência artificial, enquanto a imagem do personagem foi incorporada para reforçar a mensagem. A template usada como base foi modificada a partir de um modelo existente no banco de dados da própria ferramenta, resultando em uma composição única e personalizada.",
   },
@@ -35,7 +36,7 @@ export const galleryImages: imageGalleryType[] = [
     id: 2,
     src: "/images/Enquete_mobilidade_post_dia_2.png",
     alt: "enquete_mobilidade.png",
-    name: "Enquete mobilidade",
+    name: "Enquete Mobilidade",
     description:
       "Utilizando um background previamente criado, desenvolvi uma montagem no Adobe Express destinada a uma interação no Instagram. A composição inclui uma imagem de carro gerada por inteligência artificial, combinada com um bigode amarelo. O resultado foi apresentado em duas versões distintas, uma em cinza e outra em amarelo, oferecendo opções visuais atrativas para engajar o público na enquete.",
   },
@@ -43,7 +44,7 @@ export const galleryImages: imageGalleryType[] = [
     id: 3,
     src: "/images/Enquete_mobilidade3.png",
     alt: "enquite_mobilidade3.png",
-    name: "Enquete mobilidade",
+    name: "Enquete Mobilidade",
     description:
       "Utilizando um background previamente criado, desenvolvi uma montagem no Adobe Express destinada a uma interação no Instagram. A composição inclui uma imagem de carro gerada por inteligência artificial, combinada com um bigode amarelo. O resultado foi apresentado em duas versões distintas, uma em cinza e outra em amarelo, oferecendo opções visuais atrativas para engajar o público na enquete.",
   },
@@ -51,8 +52,9 @@ export const galleryImages: imageGalleryType[] = [
     id: 4,
     src: "/images/Celular_iPhone_11_Mockup_PSD_logo.png",
     alt: "Celular_iPhone_11_Mockup_PSD_logo.png",
-    name: "Enquete mobilidade",
-    description: "",
+    name: "Mockup com a logo",
+    description:
+      "Foi utilizado um mockup retirado do acervo do Adobe, no qual a logomarca da empresa foi inserida por meio do Adobe Photoshop. Para garantir a perfeita adaptação da imagem ao cenário do mockup, foram utilizadas ferramentas de retângulo para delimitar o local onde a logomarca seria posicionada. Além disso, aplicou-se uma máscara de camada para criar uma integração realista, de modo que a logomarca parecesse genuinamente exibida na tela do dispositivo móvel.",
   },
   {
     id: 5,
@@ -73,8 +75,9 @@ export const galleryImages: imageGalleryType[] = [
     id: 7,
     src: "/images/mockup_mesa.png",
     alt: "mockup_mesa.png",
-    name: "mockup_mesa",
-    description: "",
+    name: "MockUp Mesa",
+    description:
+      "Foi utilizado um mockup retirado do acervo do Adobe, no qual a logomarca da empresa foi inserida por meio do Adobe Photoshop. Para garantir a perfeita adaptação da imagem ao cenário do mockup, foram utilizadas ferramentas de retângulo para delimitar o local onde a logomarca seria posicionada. Além disso, aplicou-se uma máscara de camada para criar uma integração realista, de modo que a logomarca parecesse genuinamente exibida na tela do dispositivo móvel.",
   },
   {
     id: 8,
@@ -98,7 +101,7 @@ export const galleryImages: imageGalleryType[] = [
     alt: "mask_jarbas.png",
     name: "Projeto colunas",
     description:
-      "Utilizando uma máscara, integrei uma imagem gerada por IA  no texto com o nome da  empresa e mais umas colunas. O processo envolveu a seleção da imagem e do sujeito, e a criação de uma camada específica para garantir uma integração visual coesa e profissional.",
+      "Feito em PhotoShop, utilizando uma máscara, integrei uma imagem gerada por IA  no texto com o nome da  empresa e mais umas colunas. O processo envolveu a seleção da imagem e do sujeito, e a criação de uma camada específica para garantir uma integração visual coesa e profissional.",
   },
   {
     id: 11,
@@ -106,6 +109,6 @@ export const galleryImages: imageGalleryType[] = [
     alt: "mask_jarbas_updated.png",
     name: "Projeto colunas (UPDATED)",
     description:
-      "Utilizando uma máscara, integrei uma imagem gerada por IA  no texto com o nome da  empresa e mais umas colunas. O processo envolveu a seleção da imagem e do sujeito, e a criação de uma camada específica para garantir uma integração visual coesa e profissional.",
+      "Feito em PhotoShop, utilizando uma máscara, integrei uma imagem gerada por IA  no texto com o nome da  empresa e mais umas colunas. O processo envolveu a seleção da imagem e do sujeito, e a criação de uma camada específica para garantir uma integração visual coesa e profissional.",
   },
 ];

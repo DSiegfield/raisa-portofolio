@@ -3,6 +3,7 @@ import { computed } from "vue";
 import { useRoute } from "nuxt/app";
 
 const route = useRoute();
+const isDropdownActive = ref(false);
 
 const buttons = ref([
   {
@@ -52,13 +53,27 @@ const getLinkClass = (path) => {
       </div>
     </div>
     <h1
-      class="bg-gradient-to-r from-primary via-violet-600 to-secondary inline-block text-3xl text-transparent bg-clip-text font-bold"
+      class="bg-gradient-to-r from-primary via-violet-600 to-secondary inline-block text-3xl text-transparent bg-clip-text font-bold font-newpacifico"
+      style="line-height: 2"
     >
       Raisa Designs
     </h1>
     <div class="dropdown lg:hidden">
       <div tabindex="0" role="button" class="btn m-1 bg-primary text-white">
-        Navbar
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+          />
+        </svg>
       </div>
       <ul
         tabindex="0"

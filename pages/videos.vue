@@ -4,19 +4,18 @@
       <div class="hero-content text-center">
         <div class="">
           <h1
-            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black"
+            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black font-newpacifico"
           >
             Videos
           </h1>
-          <p class="text-white text-md lg:text-lg font-bold">
-            Este é o primeiro story criado para o lançamento de uma marca, com o
-            objetivo de despertar curiosidade e mistério. Na sua construção,
-            utilizei o Adobe Express, com o bigode em destaque sendo gerado por
-            IA e posteriormente editado para remover o fundo e aplicar um filtro
-            esfumaçado, intensificando as sombras. As cores predominantes no
-            vídeo, amarelo e preto, foram escolhidas propositalmente para
-            refletir a paleta da marca, garantindo coerência visual com a
-            identidade da logo.
+          <p class="text-white text-md lg:text-xl font-bold font-comfortaa">
+            Os vídeos apresentados aqui foram criados no Clipchamp e no Adobe
+            Express, utilizando imagens geradas por IA e artes previamente
+            fornecidas. Foram inseridos prints da aplicação e frames gerados por
+            IA, além da aplicação de técnicas como efeitos de luz, zoom e
+            filtros esfumaçados. As cores utilizadas seguem a paleta da marca,
+            garantindo que o resultado final seja visualmente impactante
+            e bem elaborado (2024).
           </p>
         </div>
       </div>

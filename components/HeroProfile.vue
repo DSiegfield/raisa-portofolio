@@ -3,8 +3,8 @@
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img src="/images/profile.jpg" class="rounded-lg shadow-2xl h-80" />
       <div>
-        <h1 class="text-5xl font-bold 2-">Bem Vind@s</h1>
-        <p class="py-6">
+        <h1 class="text-5xl font-bold font-comfortaa">Bem Vind@s</h1>
+        <p class="py-6 font-comfortaa">
           Sou formada em História, com pós-graduação em História da Arte, e
           desde sempre fui apaixonada pelas artes visuais. Meu interesse inicial
           era seguir carreira em Restauração de Obras de Arte, mas a vida me

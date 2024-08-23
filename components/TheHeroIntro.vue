@@ -3,8 +3,8 @@
     <div class="hero-overlay bg-opacity-70"></div>
     <div class="hero-content text-neutral-content text-center">
       <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Olá !</h1>
-        <p class="mb-5 text-3xl">
+        <h1 class="mb-5 text-5xl font-bold font-newpacifico">Olá !</h1>
+        <p class="mb-5 text-3xl font-comfortaa">
           Este website foi construido para publicar os meus trabalhos
         </p>
         <button class="btn btn-primary text-xl" @click="navigateTo('/sobre')">

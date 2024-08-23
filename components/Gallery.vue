@@ -11,7 +11,12 @@ import {
 // const lightboxImage = ref();
 // const closeButton = ref();
 
-const images = ref(galleryImages);
+const galleryImagesWithYear = galleryImages.map((image) => {
+  image.year = "2024";
+  return image;
+});
+
+const images = ref(galleryImagesWithYear);
 
 const imagesClass =
   "gallery-image object-cover rounded-3xl hover:grayscale transition-all duration-700 ease-in-out mx-auto w-full h-full animate-pulse-glow";
@@ -21,9 +26,9 @@ let selectedImage = ref(initialImage);
 const showModal = ref(false);
 
 const openModal = (id: number): void => {
-  console.log("here", id);
+  // console.log("here", id);
   const image = images.value.find((image) => image.id === id);
-  console.log(image);
+  // console.log(image);
   if (!image) return;
   selectedImage.value = image;
   showModal.value = true;
@@ -169,8 +174,10 @@ const closeModal = (): void => {
           />
         </figure>
         <div class="card-body">
-          <h1 class="card-title text-2xl">{{ selectedImage.name }}</h1>
-          <p>{{ selectedImage.description }}?</p>
+          <h1 class="card-title text-2xl font-comfortaa">
+            {{ selectedImage.name }} - {{ selectedImage.year }}
+          </h1>
+          <p class="font-comfortaa">{{ selectedImage.description }}</p>
           <div class="card-actions justify-end">
             <button class="btn btn-primary" @click="closeModal">Fechar</button>
           </div>

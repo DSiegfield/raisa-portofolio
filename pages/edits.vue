@@ -2,7 +2,7 @@
 const images = ref([
   {
     id: 0,
-    title: "Pessoa a beira da piscina",
+    title: "Pessoa a beira da piscina - 2024",
     description:
       "Esta foto foi editada no Photoshop, empregando a ferramenta de Filtros Neurais para suavizar a pele e garantir um acabamento mais uniforme. Adicionalmente, utilizei as ferramentas de retoque para ajustar o contraste e aprimorar a iluminação da imagem, resultando em uma aparência mais vibrante e equilibrada.",
     antes: "/images/piscina_antes.jpg",
@@ -10,7 +10,7 @@ const images = ref([
   },
   {
     id: 1,
-    title: "Paisagem antes da edição",
+    title: "Paisagem antes da edição - 2024",
     description:
       "Este exercício, parte de um curso na Udemy, envolveu a geração de elementos utilizando o Fill Generator do Photoshop e a seleção precisa da área onde o elemento deveria ser posicionado. A imagem mostra o resultado antes e depois da edição, ilustrando o processo de integração e personalização dos elementos.",
     antes: "/images/paisagem.jpg",
@@ -25,7 +25,7 @@ const images = ref([
       <div class="hero-content text-center">
         <div class="">
           <h1
-            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black"
+            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black font-newpacifico"
           >
             Antes VS Depois
           </h1>

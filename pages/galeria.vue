@@ -4,9 +4,9 @@
       <div class="hero-content text-center">
         <div class="max-w-md">
           <h1
-            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black"
+            class="mb-5 text-6xl md:text-7xl lg:text-9xl font-bold text-black font-newpacifico"
           >
-            Galleria
+            Galeria
           </h1>
         </div>
       </div>
